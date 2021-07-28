@@ -6,13 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/lib/bootstrap-5.0.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/public/assets/styles/principal.css">
 </head>
 <body>
-    <div class="mb-3">
-      <label for="" class="form-label"></label>
-      <input type="email" class="form-control" name="" id="" aria-describedby="emailHelpId" placeholder="">
-      <small id="emailHelpId" class="form-text text-muted">Help text</small>
+    <nav class="navbar navbar-expand navbar-light bg-light">
+        <div class="nav navbar-nav">
+            <a class="nav-item nav-link active" href="#">Home <span class="visually-hidden">(current)</span></a>
+            <a class="nav-item nav-link" href="#">Home</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="card bg-dark text-white">
+                  <img class="card-img" src="/public/res/drawable/sabana.jpg" alt="">
+                  <div class="card-img-overlay">
+                    <h4 class="card-title">Title</h4>
+                    <p class="card-text">Text</p>
+                  </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card bg-dark text-white">
+                  <img class="card-img" src="/public/res/drawable/bosque.jpg" alt="">
+                  <div class="card-img-overlay">
+                    <h4 class="card-title">Title</h4>
+                    <p class="card-text">Text</p>
+                  </div>
+                </div>
+            </div>
+        </div>
     </div>
+
 </body>
     <script src="/lib/bootstrap-5.0.2-dist/js/bootstrap.js"></script>
 </html>
